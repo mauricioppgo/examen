@@ -1,8 +1,8 @@
-class Pista 
+class Tablero 
 {
   constructor() 
   {
-    this.pista = 
+    this.tablero = 
     [
       0,
       0,
@@ -107,8 +107,8 @@ class Pista
       0
     ];
   } 
-  getPista(p) 
+  gettablero(p) 
   {
-    return this.pista;
+    return this.tablero;
   }
 }
